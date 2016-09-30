@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Seq.App.DigestEmail</id>
+    <version>$version$</version>
+    <authors>Datalust and Contributors</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A batched HTML email app for Seq (https://getseq.net).</description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/datalust/seq-app-digestemail</projectUrl>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <iconUrl>https://getseq.net/images/apps/seq-app-digestemail.png</iconUrl>
+    <tags>seq-app seq serilog events</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\Seq.App.DigestEmail.dll" target="lib\net45" />
+    <file src="bin\Release\Handlebars.dll" target="lib\net45" />
+    <file src="bin\Release\Newtonsoft.Json.dll" target="lib\net45" />
+  </files>
+</package>
