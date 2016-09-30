@@ -63,7 +63,9 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
-    <None Include="Seq.App.DigestEmail.nuspec" />
+    <None Include="Seq.App.DigestEmail.nuspec">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\DefaultBodyTemplate.html" />
