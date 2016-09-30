@@ -1,4 +1,4 @@
-# Seq Digest Email App [![Join the chat at https://gitter.im/datalust/seq](https://img.shields.io/gitter/room/datalust/seq.svg)](https://gitter.im/datalust/seq) [![NuGet Release](https://img.shields.io/nuget/v/Seq.App.DigestEmail.svg)](https://nuget.org/packages/Seq.App.DigestEmail)
+# Seq Digest Email App [![Join the chat at https://gitter.im/datalust/seq](https://img.shields.io/gitter/room/datalust/seq.svg)](https://gitter.im/datalust/seq) [![NuGet Release](https://img.shields.io/nuget/v/Seq.App.DigestEmail.svg)](https://nuget.org/packages/Seq.App.DigestEmail) [![Build status](https://ci.appveyor.com/api/projects/status/x8ydgq6s8a4h2d44?svg=true)](https://ci.appveyor.com/project/datalust/seq-app-digestemail)
 
 A plug-in for [Seq](https://getseq.net) that sends HTML email over SMTP. The digest email app sends multiple events in each email.
 
