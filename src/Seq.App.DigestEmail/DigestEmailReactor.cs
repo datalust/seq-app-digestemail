@@ -66,6 +66,7 @@ namespace Seq.App.DigestEmail
         public int BatchTimeInSeconds { get; set; }
 
         [SeqAppSetting(
+             IsOptional = true,
              DisplayName = "Maximum batch size",
              HelpText = "The maximum number of events to package into a single batch. If not specified, the default limit of 50 will be applied.")]
         public int? BatchSizeLimit { get; set; }
