@@ -265,7 +265,8 @@ namespace Seq.App.DigestEmail
                     if (!string.IsNullOrWhiteSpace(Username))
                         client.Credentials = new NetworkCredential(Username, Password);
 
-                    var message = new MailMessage(From, To.Replace(";", ","), subject, body) { IsBodyHtml = true };
+                    var to = To.Replace(";", ",").Trim(' ', ',');
+                    var message = new MailMessage(From, to, subject, body) { IsBodyHtml = true };
 
                     client.Send(message);
 
